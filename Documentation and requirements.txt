@@ -1,0 +1,10 @@
+1; Configure the switches interfaces connected to pc as access ports in the correct Vlan
+
+
+2: Configure the connections between sw1 and sw2 as a tunk, allowing only the necessary VLANS.
+	2.a: configure the unused vlan as the native vlan
+ ** make sure all the necessary vlans exist on each switches
+
+3; configure the connection between sw2 and R1 using router on stick assign the last usable address of each subnet to R1 subinterfaces.
+
+4: Test the connectivity to ping  between Pc's. All should to able to reach each other 
